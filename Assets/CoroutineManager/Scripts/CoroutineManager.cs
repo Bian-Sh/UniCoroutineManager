@@ -117,6 +117,13 @@ namespace zFrame.Extend
                     return driver;
                 }
             }
+            private void Awake()
+            {
+                if (null != driver && driver != this) //避免了跳场景导致的重复生成问题
+                {
+                    GameObject.Destroy(gameObject);
+                }
+            }
             public static Coroutine Run(IEnumerator target)
             {
                 return Driver.StartCoroutine(target);
