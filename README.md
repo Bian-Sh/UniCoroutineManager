@@ -68,3 +68,5 @@ Coroutine Manager For Unity 3d
 # Reference
 . [Unity-TaskManager](https://github.com/krockot/Unity-TaskManager/blob/master/TaskManager.cs)
 
+. [协程管理CoroutineManager-简书]( https://www.jianshu.com/p/2bd76d419e0e)
+
